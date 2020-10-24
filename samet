@@ -1,13 +1,13 @@
 local plrname = game.Players.LocalPlayer.Name
 
 wait(2)
-plrname..": Checking"
+print(plrname..": HWID Checking")
 wait(1)
-plrname..": HWID Checking."
+print(plrname..": HWID Checking.")
 wait(1)
-plrname..": HWID Checking.."
+print(plrname..": HWID Checking..")
 wait(1)
-plrname..": HWID Checking..."
+print(plrname..": HWID Checking...")
 wait(1)
 
 if plrname == "AsXHess" then
