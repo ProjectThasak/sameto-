@@ -1,5 +1,6 @@
 local plrname = game.Players.LocalPlayer.Name
 
+wait(2)
 plrname..": Checking"
 wait(1)
 plrname..": HWID Checking."
