@@ -12,4 +12,6 @@ wait(1)
 
 if plrname == "AsXHess" then
      print("Samet HWID Checkingi hava olsn diye yazdm")
-end 
+ else
+     print("Sen kimsin ve bu scripti niye kullanıorsun orosbu çocu")
+end
