@@ -1,1 +1,14 @@
-samettambirocsunorosbuevladi
+local plrname = game.Players.LocalPlayer.Name
+
+plrname..": Checking"
+wait(1)
+plrname..": HWID Checking."
+wait(1)
+plrname..": HWID Checking.."
+wait(1)
+plrname..": HWID Checking..."
+wait(1)
+
+if plrname == "AsXHess" then
+     print("Samet HWID Checkingi hava olsn diye yazdm")
+end 
