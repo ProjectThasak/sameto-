@@ -1,17 +1,2 @@
-local plrname = game.Players.LocalPlayer.Name
-
-wait(2)
-print(plrname..": HWID Checking")
-wait(1)
-print(plrname..": HWID Checking.")
-wait(1)
-print(plrname..": HWID Checking..")
-wait(1)
-print(plrname..": HWID Checking...")
-wait(1)
-
-if plrname == "AsXHess" then
-     print("Samet HWID Checkingi hava olsn diye yazdm")
- else
-     print("Sen kimsin ve bu scripti niye kullanıorsun orosbu çocu")
-end
+ProjectThasak_1
+AsXHess
