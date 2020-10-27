@@ -1,1 +1,7 @@
-ProjectThasak_1
+_G.Key = ""
+
+if _G.Key == "Project" then
+    print(plrname.." : Doğrulandı!")
+    else
+    print(plrname.." : Doğrulanmadı!")
+end
