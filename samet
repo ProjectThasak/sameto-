@@ -1,3 +1,5 @@
+_G.Key = ""
+
 if _G.Key == "Project" then
     print(plrname.." : Doğrulandı!")
     else
