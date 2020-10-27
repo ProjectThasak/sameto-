@@ -1,7 +1,5 @@
-_G.Key = ""
-
 if _G.Key == "Project" then
-    print(plrname.." : Doğrulandı!")
+    print("Doğrulandı!")
     else
-    print(plrname.." : Doğrulanmadı!")
+    print("Doğrulanmadı!")
 end
