@@ -107,8 +107,20 @@ local function LMOVNRG_fake_script() -- ScreenGui.LocalScript
 	local page1 = script.Parent.Frame.page1
 	local home = script.Parent.Frame.home
 	
+	local UIS = game:GetService("UserInputService")
+	
 	animasyon.Visible = false
 	page1.Visible = false
+	
+	UIS.InputBegan:connect(function(key)
+	    if key.KeyCode == Enum.KeyCode.Insert then
+	        if Frame.Visible == true then
+	            Frame.Visible = false
+	            else
+	                Frame.Visible = true
+	        end
+	    end
+	end)
 	
 	page1button.MouseButton1Down:Connect(function()
 		if page1.Visible == false then
